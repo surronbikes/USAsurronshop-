@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>USAsurronshop</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #111;
+      color: #fff;
+    }
+
+    header {
+      background: #222;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      color: #facc15;
+      font-size: 2.5rem;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: #facc15;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .card {
+      background: #1e1e1e;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20px 0;
+      box-shadow: 0 0 10px #000;
+    }
+
+    .btn {
+      background-color: #facc15;
+      color: #000;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1em;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 10px;
+    }
+
+    footer {
+      background: #222;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>USAsurronshop</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#bikes">Bikes</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about" class="card">
+    <h2>About Us</h2>
+    <p>We specialize in high-performance Surron electric bikes for riders across the U.S. Whether you’re hitting the trails or the streets, we’ve got the perfect ride for you.</p>
+  </section>
+
+  <section id="bikes" class="card">
+    <h2>Our Bikes</h2>
+    <ul>
+      <li>Surron Light Bee X – Off-road beast</li>
+      <li>Surron Storm Bee – Power meets style</li>
+      <li>Custom Mods and Upgrades</li>
+    </ul>
+    <a href="#" class="btn">Shop Now</a>
+  </section>
+
+  <section id="contact" class="card">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:usasurronshop@example.com">usasurronshop@example.com</a></p>
+    <p>Instagram: @usasurronshop</p>
+  </section>
+
+  <footer>
+    &copy; 2025 USAsurronshop. Built by Ekane Bright.
+  </footer>
+
+</body>
+</html>
